@@ -1,0 +1,138 @@
+body {
+    background-color: #000000;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); /* Subtle noise texture if available, or just fallback to black */
+    color: #00FF00;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #00FFFF;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #FF00FF;
+}
+
+a:hover {
+    background-color: #00FFFF;
+    color: #000000;
+    text-decoration: none;
+    cursor: help;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #000000;
+    border: 2px solid #808080;
+}
+
+.sidebar-avatar {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 2px solid #808080;
+    image-rendering: pixelated;
+}
+
+.header {
+    background-color: #000080;
+    color: #FFFFFF;
+    padding: 10px;
+    border-bottom: 5px ridge #808080;
+    text-align: center;
+}
+
+.main-body {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #1a1a1a;
+    padding: 10px;
+    border-right: 5px ridge #808080;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #050505;
+}
+
+.nav-box {
+    border: 2px outset #FFFFFF;
+    padding: 5px;
+    background-color: #000000;
+    text-align: left;
+}
+
+.nav-box h3 {
+    margin-top: 0;
+    text-align: center;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: #000080;
+    color: #FFF;
+}
+
+.nav-box ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.counter-box {
+    border: 2px inset #808080;
+    background-color: #000000;
+    padding: 5px;
+}
+
+.counter {
+    font-family: "Digital-7", monospace;
+    color: red;
+    font-size: 24px;
+    letter-spacing: 5px;
+    background-color: #200000;
+    border: 1px solid #400000;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 255, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 20px 0;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px outset #808080;
+}
+
+td {
+    border: 1px inset #808080;
+    color: #000; /* Black text on gray background cells */
+}
+
+td[bgcolor="#c0c0c0"] {
+    color: #000000;
+}
+
+td:not([bgcolor]) {
+    color: #00FF00;
+}
+
+button {
+    background-color: #c0c0c0;
+    border: 2px outset #ffffff;
+    color: black;
+    font-family: "MS Sans Serif", sans-serif;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+button:active {
+    border: 2px inset #ffffff;
+}
